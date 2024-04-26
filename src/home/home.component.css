@@ -1,0 +1,86 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  
+  header {
+    background-color: #ee6408;
+    color: rgb(0, 0, 0);
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 10%;
+  }
+  
+  .nav-links li {
+    display: inline;
+    padding: 0 15px;
+  }
+  
+  .nav-links a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .hero {
+    text-align: center; /* Așează textul în centru */
+    background-color: #ffffff; /* Culorile de fundal */
+    padding: 150px 0; /* Adaugă spațiu deasupra și dedesubtul textului */
+}
+
+.hero h1 {
+    font-size: 4em; /* Mărimea fontului */
+    margin: 0; /* Elimină marginile implicite */
+}
+  
+  .btn {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  section {
+    padding: 170px 10%;
+    background-color: #ffffff;
+  }
+  
+  .service-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .service {
+    
+    background: #807c7c;
+    padding: 20px;
+    border-radius: 8px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+   
+    
+    
+  }
+  
+  
+  footer {
+    position: fixed; /* Poziționează footer-ul fix pe partea de jos a ferestrei de vizualizare */
+    left: 0;
+    bottom: 0;
+    width: 100%; /* Face footer-ul să aibă lățimea întregii ferestre */
+    background-color: #ff5100; /* Culorile de fundal */
+    color: white; /* Culorile textului */
+    text-align: center; /* Așează textul în centru */
+    padding: 10px 0; /* Adaugă spațiu deasupra și dedesubtul textului */
+}
+
+  
